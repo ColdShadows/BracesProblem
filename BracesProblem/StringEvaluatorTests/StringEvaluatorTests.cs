@@ -1,0 +1,6 @@
+﻿namespace StringEvaluatorTests
+{
+    class StringEvaluatorTests
+    {
+    }
+}
