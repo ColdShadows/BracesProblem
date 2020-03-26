@@ -10,9 +10,9 @@ namespace StringEvaluator
         [InlineData("{[{}]}", true)]
         [InlineData("{[{]}}", false)]
         [InlineData("{d{}ssl}erw", true)]
-        public void IsProperBraces_InputString_ReturnsExpectedBoolean(string input, bool expected)
+        public void IsProperBraces_InputString_ReturnsExpectedBoolean(string bracesInput, bool expected)
         {
-            var result = StringEvaluator.IsProperBraces(input);
+            var result = StringEvaluator.IsProperBraces(bracesInput);
 
             Assert.Equal(expected, result);
         }
